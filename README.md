@@ -65,7 +65,7 @@ To generate documentation in other formats, just run `doxygen`. It supports XML 
 curl -O https://raw.githubusercontent.com/Chubek/dslutils.cpp/refs/heads/master/dslutils.hpp
 
 # Or add as submodule
-git submodule add https://github.com/Chubek/DSLUtils.cpp.git external/dslutils
+git submodule add https://github.com/Chubek/DSLUtils.hpp.git external/dslutils
 ```
 Then include in your code:
 
