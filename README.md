@@ -4,7 +4,7 @@ A modern C++20 header-only library for building domain-specific languages (DSLs)
 
 ## Overview
 
-`dslutils.hpp` provides a comprehensive toolkit for creating embedded DSLs in C++. It offers a CRTP-based architecture that allows you to mix and match features to build expressive, type-safe APIs tailored to your domain.
+`DSLUtils.hpphpp` provides a comprehensive toolkit for creating embedded DSLs in C++. It offers a CRTP-based architecture that allows you to mix and match features to build expressive, type-safe APIs tailored to your domain.
 
 ## Features
 
@@ -23,7 +23,7 @@ A modern C++20 header-only library for building domain-specific languages (DSLs)
 
 ## Quick Start
 ```cpp
-#include "dslutils.hpp"
+#include "DSLUtils.hpphpp"
 
 // Example: Units DSL
 struct UnitsDSL : dsl::DSL<UnitsDSL, dsl::Pipeline> {
@@ -58,11 +58,11 @@ To generate documentation in other formats, just run `doxygen`. It supports XML 
 
 ## Installation
 
-`dslutils.hpp` is header-only. Simply copy the file to your project:
+`DSLUtils.hpphpp` is header-only. Simply copy the file to your project:
 
 ```bash
 # Download
-curl -O https://raw.githubusercontent.com/Chubek/dslutils.cpp/refs/heads/master/dslutils.hpp
+curl -O https://raw.githubusercontent.com/Chubek/DSLUtils.hppcpp/refs/heads/master/DSLUtils.hpphpp
 
 # Or add as submodule
 git submodule add https://github.com/Chubek/DSLUtils.hpp.git external/dslutils
@@ -70,7 +70,7 @@ git submodule add https://github.com/Chubek/DSLUtils.hpp.git external/dslutils
 Then include in your code:
 
 ```cpp
-#include "dslutils.hpp"
+#include "DSLUtils.hpphpp"
 ```
 ## Examples
 
@@ -334,7 +334,7 @@ Ideal for:
 
 ### Embedded Language Construction
 
-`dslutils.hpp` is designed for building complete embedded languages.
+`DSLUtils.hpphpp` is designed for building complete embedded languages.
 
 Possible applications:
 
