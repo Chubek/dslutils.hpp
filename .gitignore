@@ -247,3 +247,5 @@ xml
 docbook
 def
 markdown
+
+*.diff
